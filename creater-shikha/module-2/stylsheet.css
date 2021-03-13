@@ -1,0 +1,66 @@
+*{ box-sizing: border-box;}
+ body{font font-size: 120%;
+    position: relative;
+}
+h1{
+color:black;
+text-align:center;
+}
+.main{
+    background-color: grey;
+    color:black;
+    font: size 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    margin:10px;
+padding:0px;
+border:3px solid black;
+}
+.bore{
+text-align: center;
+font: size 25%;
+color:black;
+margin:0px;
+padding:0px;
+border:3px solid black;
+
+}
+p{ 
+    clear: left;
+    
+}
+.first{background-color: blueviolet;
+    float:right;
+}
+.second{background-color: yellow;
+    float:right;
+}
+.third{background-color: pink;
+    float:right;
+}
+@media (min-width:992px){ 
+    .p1{width:31.3%;
+    float:left;}
+    .p2{width:31.3%;
+        float:left;
+    }
+    .p3{width:31.3%; 
+    float:left;}
+    
+   .main{
+    margin:13px;
+
+    }
+}
+@media (min-width:766px) and (max-width:991px){
+    .p1{width: 45% ;float:left;}
+    .p2{width:45%; 
+     float:left;}
+    .p3{width:100%;
+        float:left;
+        margin:2px;
+    }
+}
+@media(max-width:767px){
+   
+}
